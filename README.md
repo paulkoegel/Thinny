@@ -2,6 +2,7 @@
 
 ##About
 Thinny is a beautiful theme for [Jekyll](https://github.com/TryGhost/Ghost).
+
 (if you're looking for the [Ghost](http://ghost.org) release of the theme, check [this page](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra))
 
 ##Demo
