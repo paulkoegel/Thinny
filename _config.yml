@@ -1,0 +1,26 @@
+# Dependencies
+markdown:	redcarpet
+pygments:	true
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		Thinny
+tagline:	'blog'
+description:	'My personal blog.'
+url:		http://camporez.com
+
+author:
+  name:	'Ian Camporez Brunelli'
+  url:	https://google.com/+IanCamporezBrunelli
+
+paginate:	6
+
+# Custom vars
+icon: /assets/images/icon.png
+cover: /assets/images/cover.jpg
+version:	1.0.0
+github:
+  repo:	https://github.com/camporez/camporez.github.io
+copyright: <p class="copyright">&copy;2014, <a href="http://camporez.com" target="_blank">Camporez</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5/br/" target="_blank">Some rights reserved</a>.</p>
