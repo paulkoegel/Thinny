@@ -12,3 +12,6 @@ A live demo is available [on my personal blog](http://camporez.com/).
 
 ##More information
 Read the blog post [here](http://camporez.com/blog/thinny-2/).
+
+##Reporting issues
+You can report an issue or request a feature [here](http://github.com/camporez/camporez.github.io/issues)
