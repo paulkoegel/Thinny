@@ -4,13 +4,12 @@
 <input id="_1" type="checkbox">
 <div class="menu-content">
 	<div class="menu" style="background-color: #777;"></div>
-	<a href="{{ site.url }}">Home</a><br>
-	<a href="#">Portfolio</a><br>
-	<a href="/about">About</a>
+	{% for item in site.menu %}
+	<a href="{{ item.url }}">{{ item.title }}</a><br>
+	{% endfor %}
 </div>
 <div class="social-links">
-	<a href="https://twitter.com/iancamporez" target="_blank" title="Twitter"><span class="genericon genericon-twitter"></span></a>
-	<a href="https://github.com/camporez" target="_blank" title="Github"><span class="genericon genericon-github"></span></a>
-	<a href="https://google.com/+IanCamporezBrunelli" target="_blank" title="Google+"><span class="genericon genericon-googleplus-alt"></span></a>
-	<a href="{{ site.url }}/atom.xml" target="_blank" title="Subscribe to RSS"><span class="genericon genericon-feed"></span></a>
+	{% for social in site.social %}
+	<a href="{{ social.url }}" target="_blank" title="{{ social.desc }}"><span class="genericon genericon-{{ social.icon }}"></span></a>
+	{% endfor %}
 </div>
