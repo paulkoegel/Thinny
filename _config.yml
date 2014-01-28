@@ -45,4 +45,8 @@ menu:
   - title:	About
     url:	http://camporez.com/about
     
-copyright:	<p class="copyright">&copy;2014, <a href="http://camporez.com" target="_blank">Camporez</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5/br/" target="_blank">Alguns direitos reservados</a>.</p>
+copyright:
+  author: Camporez
+  url: http://camporez.com
+  type_title: Some rights reserved
+  type_url: http://creativecommons.org/licenses/by-nc/2.5
